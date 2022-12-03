@@ -1,5 +1,9 @@
 # LiveActivitiesDemo
 
+## Requirements
+Xcode 14
+IOS 16.1
+
 ## How to run the application
 Just clone the application and run the FoodDeliveryTest target.
 
