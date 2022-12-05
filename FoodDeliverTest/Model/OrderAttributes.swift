@@ -6,15 +6,22 @@
 //
 
 import SwiftUI
+import ActivityKit
 
-struct OrderAttributes: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct OrderAttributes: ActivityAttributes {
+    struct ContentState: Codable, Hashable{
+        // Live Activity state changeable properties
+        
+        var status: Status = .received
     }
+    
+    // Other properties
+    var orderNumber: Int
+    var orderItems: String
 }
 
-struct OrderAttributes_Previews: PreviewProvider {
-    static var previews: some View {
-        OrderAttributes()
-    }
+enum Status: String, CaseIterable, Codable, Equatable{
+    case received = "shippingbox.fill"
+    case progress = "person.bust"
+    case ready = "takeoutbag.and.cup.and.straw.fill"
 }

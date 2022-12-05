@@ -11,7 +11,42 @@
 		D2C65364293A9F6F007934BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C65363293A9F6F007934BC /* ContentView.swift */; };
 		D2C65366293A9F72007934BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C65365293A9F72007934BC /* Assets.xcassets */; };
 		D2C65369293A9F72007934BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C65368293A9F72007934BC /* Preview Assets.xcassets */; };
+		D2C65376293A9FA5007934BC /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C65375293A9FA5007934BC /* WidgetKit.framework */; };
+		D2C65378293A9FA5007934BC /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C65377293A9FA5007934BC /* SwiftUI.framework */; };
+		D2C6537B293A9FA5007934BC /* OrderStatusBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C6537A293A9FA5007934BC /* OrderStatusBundle.swift */; };
+		D2C6537D293A9FA5007934BC /* OrderStatusLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C6537C293A9FA5007934BC /* OrderStatusLiveActivity.swift */; };
+		D2C6537F293A9FA5007934BC /* OrderStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C6537E293A9FA5007934BC /* OrderStatus.swift */; };
+		D2C65382293A9FA9007934BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C65381293A9FA9007934BC /* Assets.xcassets */; };
+		D2C65384293A9FA9007934BC /* OrderStatus.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = D2C65380293A9FA5007934BC /* OrderStatus.intentdefinition */; };
+		D2C65385293A9FA9007934BC /* OrderStatus.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = D2C65380293A9FA5007934BC /* OrderStatus.intentdefinition */; };
+		D2C65388293A9FA9007934BC /* OrderStatusExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D2C65373293A9FA5007934BC /* OrderStatusExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D2C6538F293AA01B007934BC /* OrderAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C6538E293AA01B007934BC /* OrderAttributes.swift */; };
+		D2C65390293AA01B007934BC /* OrderAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C6538E293AA01B007934BC /* OrderAttributes.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2C65386293A9FA9007934BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2C65356293A9F6F007934BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2C65372293A9FA5007934BC;
+			remoteInfo = OrderStatusExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D2C6538C293A9FA9007934BC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D2C65388293A9FA9007934BC /* OrderStatusExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D2C6535E293A9F6F007934BC /* FoodDeliverTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliverTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +54,16 @@
 		D2C65363293A9F6F007934BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2C65365293A9F72007934BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2C65368293A9F72007934BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2C65373293A9FA5007934BC /* OrderStatusExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OrderStatusExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C65375293A9FA5007934BC /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D2C65377293A9FA5007934BC /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D2C6537A293A9FA5007934BC /* OrderStatusBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStatusBundle.swift; sourceTree = "<group>"; };
+		D2C6537C293A9FA5007934BC /* OrderStatusLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStatusLiveActivity.swift; sourceTree = "<group>"; };
+		D2C6537E293A9FA5007934BC /* OrderStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStatus.swift; sourceTree = "<group>"; };
+		D2C65380293A9FA5007934BC /* OrderStatus.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = OrderStatus.intentdefinition; sourceTree = "<group>"; };
+		D2C65381293A9FA9007934BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2C65383293A9FA9007934BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C6538E293AA01B007934BC /* OrderAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderAttributes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +74,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2C65370293A9FA5007934BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C65378293A9FA5007934BC /* SwiftUI.framework in Frameworks */,
+				D2C65376293A9FA5007934BC /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				D2C65360293A9F6F007934BC /* FoodDeliverTest */,
+				D2C65379293A9FA5007934BC /* OrderStatus */,
+				D2C65374293A9FA5007934BC /* Frameworks */,
 				D2C6535F293A9F6F007934BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				D2C6535E293A9F6F007934BC /* FoodDeliverTest.app */,
+				D2C65373293A9FA5007934BC /* OrderStatusExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +108,7 @@
 		D2C65360293A9F6F007934BC /* FoodDeliverTest */ = {
 			isa = PBXGroup;
 			children = (
+				D2C6538D293AA001007934BC /* Model */,
 				D2C65361293A9F6F007934BC /* FoodDeliverTestApp.swift */,
 				D2C65363293A9F6F007934BC /* ContentView.swift */,
 				D2C65365293A9F72007934BC /* Assets.xcassets */,
@@ -67,6 +125,36 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D2C65374293A9FA5007934BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2C65375293A9FA5007934BC /* WidgetKit.framework */,
+				D2C65377293A9FA5007934BC /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2C65379293A9FA5007934BC /* OrderStatus */ = {
+			isa = PBXGroup;
+			children = (
+				D2C6537A293A9FA5007934BC /* OrderStatusBundle.swift */,
+				D2C6537C293A9FA5007934BC /* OrderStatusLiveActivity.swift */,
+				D2C6537E293A9FA5007934BC /* OrderStatus.swift */,
+				D2C65380293A9FA5007934BC /* OrderStatus.intentdefinition */,
+				D2C65381293A9FA9007934BC /* Assets.xcassets */,
+				D2C65383293A9FA9007934BC /* Info.plist */,
+			);
+			path = OrderStatus;
+			sourceTree = "<group>";
+		};
+		D2C6538D293AA001007934BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2C6538E293AA01B007934BC /* OrderAttributes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +165,34 @@
 				D2C6535A293A9F6F007934BC /* Sources */,
 				D2C6535B293A9F6F007934BC /* Frameworks */,
 				D2C6535C293A9F6F007934BC /* Resources */,
+				D2C6538C293A9FA9007934BC /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D2C65387293A9FA9007934BC /* PBXTargetDependency */,
 			);
 			name = FoodDeliverTest;
 			productName = FoodDeliverTest;
 			productReference = D2C6535E293A9F6F007934BC /* FoodDeliverTest.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D2C65372293A9FA5007934BC /* OrderStatusExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2C65389293A9FA9007934BC /* Build configuration list for PBXNativeTarget "OrderStatusExtension" */;
+			buildPhases = (
+				D2C6536F293A9FA5007934BC /* Sources */,
+				D2C65370293A9FA5007934BC /* Frameworks */,
+				D2C65371293A9FA5007934BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderStatusExtension;
+			productName = OrderStatusExtension;
+			productReference = D2C65373293A9FA5007934BC /* OrderStatusExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +205,9 @@
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					D2C6535D293A9F6F007934BC = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					D2C65372293A9FA5007934BC = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
@@ -116,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				D2C6535D293A9F6F007934BC /* FoodDeliverTest */,
+				D2C65372293A9FA5007934BC /* OrderStatusExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +241,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2C65371293A9FA5007934BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C65382293A9FA9007934BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +256,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C65385293A9FA9007934BC /* OrderStatus.intentdefinition in Sources */,
 				D2C65364293A9F6F007934BC /* ContentView.swift in Sources */,
 				D2C65362293A9F6F007934BC /* FoodDeliverTestApp.swift in Sources */,
+				D2C6538F293AA01B007934BC /* OrderAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C6536F293A9FA5007934BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C6537F293A9FA5007934BC /* OrderStatus.swift in Sources */,
+				D2C65384293A9FA9007934BC /* OrderStatus.intentdefinition in Sources */,
+				D2C65390293AA01B007934BC /* OrderAttributes.swift in Sources */,
+				D2C6537B293A9FA5007934BC /* OrderStatusBundle.swift in Sources */,
+				D2C6537D293A9FA5007934BC /* OrderStatusLiveActivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2C65387293A9FA9007934BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2C65372293A9FA5007934BC /* OrderStatusExtension */;
+			targetProxy = D2C65386293A9FA9007934BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D2C6536A293A9F72007934BC /* Debug */ = {
@@ -262,6 +403,7 @@
 		D2C6536D293A9F72007934BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -269,6 +411,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FoodDeliverTest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -290,6 +433,7 @@
 		D2C6536E293A9F72007934BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +441,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FoodDeliverTest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,6 +454,58 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.com.FoodDeliverTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2C6538A293A9FA9007934BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrderStatus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OrderStatus;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.com.FoodDeliverTest.OrderStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2C6538B293A9FA9007934BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrderStatus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OrderStatus;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.com.FoodDeliverTest.OrderStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,6 +529,15 @@
 			buildConfigurations = (
 				D2C6536D293A9F72007934BC /* Debug */,
 				D2C6536E293A9F72007934BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2C65389293A9FA9007934BC /* Build configuration list for PBXNativeTarget "OrderStatusExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C6538A293A9FA9007934BC /* Debug */,
+				D2C6538B293A9FA9007934BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
